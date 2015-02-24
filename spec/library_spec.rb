@@ -19,6 +19,8 @@ describe "Library Object" do
     @lib = Library.new("books.yml")
   end
 
+
+#video tutorial is old
   describe "#new" do
     context "with no parameters" do
       it "has no books" do
